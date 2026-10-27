@@ -27,14 +27,6 @@ def pedir_opcion(maximo):
         print(f"Opción no válida. Elige un número entre 1 y {maximo}.")
 
 
-def pedir_estado():
-    while True:
-        estado = input("¿Tu telefonillo es viejo o nuevo?").strip().lower()
-        if estado in ("viejo", "nuevo"):
-            return estado
-        print("Respuesta no válida. Escribe 'viejo' o 'nuevo'.")
-
-
 def seleccionar_marca(titulo):
     marcas = list(MARCAS)
     print(titulo)
@@ -87,10 +79,6 @@ def mostrar_presentacion():
 
 def main():
     mostrar_presentacion()
-    if pedir_estado() == "nuevo":
-        print("Revise las conexiones, por favor")
-        return
-
     print()
     marca_instalada = seleccionar_marca("Elige la marca del telefono instalado")
     marca_nueva = seleccionar_marca("Elige la marca del telefono a instalar")

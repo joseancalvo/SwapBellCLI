@@ -1,3 +1,5 @@
+![Portada de SwapBellCLI](e75a77e5-a7b7-46b5-8a57-aaa218894468.jpg)
+
 # SwapBellCLI
 
 **Versión 0.2 · EYIlabs**
@@ -72,10 +74,9 @@ python3 equivalenciasportero.py
 
 ## Uso
 
-1. Indica si el telefonillo es `viejo` o `nuevo`. La respuesta admite mayúsculas y espacios al principio o al final. Si escribes `nuevo`, el programa te pide que revises las conexiones y termina.
-2. Si escribes `viejo`, selecciona la marca del telefonillo instalado introduciendo un número del 1 al 10.
-3. Selecciona la marca del telefonillo que vas a instalar, también del 1 al 10.
-4. Consulta la tabla de equivalencias. Cada fila relaciona un borne del telefonillo instalado con el correspondiente en el nuevo.
+1. Selecciona la marca del telefonillo instalado introduciendo un número del 1 al 10.
+2. Selecciona la marca del telefonillo que vas a instalar, también del 1 al 10.
+3. Consulta la tabla de equivalencias. Cada fila relaciona un borne del telefonillo instalado con el correspondiente en el nuevo.
 
 Si una respuesta no es válida, el programa muestra un aviso y vuelve a pedirla. Los menús aceptan únicamente números enteros dentro del rango indicado.
 
@@ -101,3 +102,9 @@ Antes de realizar la sustitución, revisa el tipo de llamada y las masas, tal co
 - Código organizado en funciones, con un catálogo común de marcas y bornes.
 - Tabla de correspondencias entre bornes.
 - Nueva cabecera con un telefonillo descolgado en ASCII y la firma EYIlabs.
+
+## Licencia
+
+Este proyecto se distribuye bajo la [licencia MIT](LICENSE).
+
+Copyright (c) 2026 Jose Angel Calvo.
